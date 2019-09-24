@@ -6,7 +6,7 @@ export const config = {
     return axios.create({
       baseURL: this.apiUrl,
       headers: {
-        Authorization: `Token ${localStorage.getItem("authToken")}`
+        Authorization: 'Token ${localStorage.getItem("authToken")}'
       }
     });
   }
