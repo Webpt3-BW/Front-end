@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import PrivateRoute from './Utilities/PrivateRoute'
 import Landing from './Pages/Landing';
 import Team from './Pages/Team';
