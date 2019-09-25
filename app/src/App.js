@@ -14,7 +14,8 @@ function App() {
       <Route path ="/Team" component={Team}/>
       <Route path ="/Login" component={Login}/>
       <Route path ="/Register" component={Register}/>
-      <PrivateRoute path ="/Dashboard" component={Dashboard}/>
+      {/* <PrivateRoute path ="/Dashboard" component={Dashboard}/> */}
+      <Route path ="/Dashboard" component={Dashboard}/>
     </Router>
   );
 }
