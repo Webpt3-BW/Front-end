@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import {URL} from '../../Utilities/Constants';
 import axios from 'axios';
+import Navbar from '../../Components/NavBar';
 
 class Login extends Component {
     state = {
@@ -55,6 +56,7 @@ class Login extends Component {
     render(){
         return(
             <div className="ui container">
+              <Navbar/>
               <h2>Login Page</h2>
               <Link to="/register">Register here.</Link> 
               <div className="ui placeholder segment">
